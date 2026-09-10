@@ -313,6 +313,27 @@ audioRef.current.volume = 0.3; // 0.0 to 1.0
 - **Three.js 0.160** - 3D graphics library
 - **Framer Motion 10.16** - Animation library
 - **React Scripts 5.0** - Build tooling
+- **@vercel/analytics** - Vercel Analytics (Hobby tier)
+- **@vercel/speed-insights** - Vercel Speed Insights
+
+## 📊 Analytics
+
+This app includes **Vercel Analytics** and **Speed Insights** for the hobby (free) tier:
+
+- **Analytics**: Track page views and user interactions
+- **Speed Insights**: Monitor Core Web Vitals and performance
+
+**View your analytics:**
+1. Deploy to Vercel
+2. Go to your Vercel dashboard
+3. Click on your project
+4. Navigate to the "Analytics" tab
+
+**Data collected (privacy-friendly):**
+- Page views
+- Performance metrics (FCP, LCP, CLS, etc.)
+- No personal data or cookies
+- GDPR compliant
 
 ## 📝 Customization Checklist
 
