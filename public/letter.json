@@ -1,0 +1,26 @@
+{
+  "greeting": "Dear [Their Name],",
+  "paragraphs": [
+    "I've wirtten this letter a hundred times in my head, each time finding  ways to explain, to make sense of what happened. But now , I realized that's not what matters.",
+            "What matters is this: **you were hurt.**",
+            "Someone who was important to me—someone who *is* important to me—felt pain because of me.",
+            "I should have being better at managing  things . I should have listened when you needed me to listen. I should have understood when understanding mattered most. I should have been the person you deserved, and I wasn't.",
+            "I'm not writing this to ask you to forget As  I know Memory doesn't work like that , and pretending otherwise would be another mistake. I'm writing because you deserve to know that I see what I did, I understand why it hurt, and I am genuinely, deeply sorry.",
+            "I don't know if apologies can mend what was broken. I don't know if time will soften what happened . But I do know this:"],
+  "emphasis": [
+    "Some spells can be undone. Some words cannot.",
+    "So instead of trying to undo mine, I want to spend my time proving that I can do better."
+  ],
+  "finalParagraphs": [
+    "You were never just anyone to me. You were someone who made ordinary moments feel extraordinary. Someone whose presence I valued more than I ever properly expressed. Someone whose trust I should have guarded more carefully than I did.",
+    
+    "I'm sorry for the hurt. I'm sorry for the disappointment. And most of all, I'm sorry that I gave you reason to doubt what you meant to me."
+  ],
+  "closing": "With sincere regret,",
+  "signature": "Someone who should have known better",
+  "instructions": {
+    "howToEdit": "Edit this JSON file to customize your letter. Keep the structure but change the text.",
+    "formatting": "Use **text** for bold and *text* for italic",
+    "deployment": "After editing, save and rebuild the app with: npm run build"
+  }
+}

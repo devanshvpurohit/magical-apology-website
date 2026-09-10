@@ -1,0 +1,46 @@
+.mistake-screen {
+  background: linear-gradient(135deg, rgba(26, 31, 53, 0.8) 0%, rgba(45, 53, 97, 0.6) 100%);
+}
+
+.parchment-title {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  color: var(--color-ink);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ink-writing {
+  font-family: var(--font-elegant);
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.writing-line {
+  margin: 1rem 0;
+  min-height: 1.5rem;
+}
+
+.writing-line.emphasis {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: var(--color-burgundy);
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .parchment-title {
+    font-size: 2rem;
+  }
+
+  .ink-writing {
+    font-size: 1.2rem;
+  }
+
+  .writing-line.emphasis {
+    font-size: 1.4rem;
+  }
+}

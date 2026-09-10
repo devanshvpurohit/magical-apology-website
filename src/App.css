@@ -1,0 +1,236 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 1000;
+  padding: 15px 25px;
+  background: rgba(26, 31, 53, 0.6);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.progress-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.progress-dot.active {
+  background: var(--color-gold);
+  box-shadow: 0 0 15px var(--color-gold);
+  transform: scale(1.3);
+}
+
+.progress-dot.completed {
+  background: rgba(212, 175, 55, 0.6);
+}
+
+/* Screen Base Styles */
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen-content {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Canvas Background */
+.canvas-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Typography */
+.title {
+  font-family: var(--font-title);
+  font-size: 4rem;
+  color: var(--color-gold);
+  margin-bottom: 2rem;
+  text-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+  letter-spacing: 2px;
+}
+
+.quote {
+  font-family: var(--font-elegant);
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 1.8;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-left: 3px solid var(--color-gold);
+  border-right: 3px solid var(--color-gold);
+  max-width: 700px;
+  color: var(--color-warm-gold);
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--color-warm-gold);
+  line-height: 1.6;
+}
+
+/* Magical Button */
+.magical-button {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, var(--color-burgundy) 0%, var(--color-deep-blue) 100%);
+  color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.magical-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.magical-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.magical-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
+}
+
+.magical-button:active {
+  transform: translateY(-1px);
+}
+
+/* Parchment Style */
+.parchment {
+  background: linear-gradient(to bottom, var(--color-parchment) 0%, #ede0c8 100%);
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    inset 0 0 50px rgba(139, 90, 43, 0.1);
+  position: relative;
+  color: var(--color-ink);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.parchment::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 30px,
+      rgba(139, 90, 43, 0.03) 31px
+    );
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .quote {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .magical-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+
+  .screen {
+    padding: 1rem;
+  }
+
+  .progress-indicator {
+    bottom: 15px;
+    gap: 8px;
+    padding: 10px 15px;
+  }
+
+  .progress-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .quote {
+    font-size: 1.1rem;
+  }
+}

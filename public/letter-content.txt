@@ -1,0 +1,56 @@
+LETTER CONTENT - Edit this file to customize your apology letter
+================================================================
+
+GREETING:
+Dear [Their Name],
+
+PARAGRAPH 1:
+I've started writing this letter a hundred times in my head, each time finding new ways to explain, to justify, to make sense of what happened. But tonight, I realized that's not what matters.
+
+PARAGRAPH 2:
+What matters is this: I hurt you.
+
+PARAGRAPH 3:
+I know I did. And whether it was through careless words, thoughtless actions, or stubborn pride, the result is the same. Someone who was important to me—someone who is important to me—felt pain because of me.
+
+PARAGRAPH 4:
+I should have handled things differently. I should have listened when you needed me to listen. I should have understood when understanding mattered most. I should have been the person you deserved, and I wasn't.
+
+PARAGRAPH 5:
+I'm not writing this to ask you to forget. Memory doesn't work that way, and pretending otherwise would be another mistake. I'm writing because you deserve to know that I see what I did, I understand why it hurt, and I am genuinely, deeply sorry.
+
+PARAGRAPH 6:
+I don't know if apologies can mend what was broken. I don't know if time will soften what happened between us. But I do know this:
+
+EMPHASIS 1:
+Some spells can be undone. Some words cannot.
+
+EMPHASIS 2:
+So instead of trying to undo mine, I want to spend my time proving that I can do better.
+
+PARAGRAPH 7:
+You were never just anyone to me. You were someone who made ordinary moments feel extraordinary. Someone whose presence I valued more than I ever properly expressed. Someone whose trust I should have guarded more carefully than I did.
+
+PARAGRAPH 8:
+I'm sorry for the hurt. I'm sorry for the disappointment. And most of all, I'm sorry that I gave you reason to doubt what you meant to me.
+
+CLOSING:
+With sincere regret,
+
+SIGNATURE:
+Someone who should have known better
+
+================================================================
+INSTRUCTIONS:
+1. Edit the paragraphs above to match your situation
+2. Save this file
+3. The letter will automatically load from this file when you rebuild the app
+4. Keep the section labels (PARAGRAPH 1:, EMPHASIS 1:, etc.) for proper formatting
+5. You can add or remove paragraphs as needed
+
+TIPS:
+- Be specific about what you did wrong
+- Avoid making excuses
+- Focus on their feelings, not your intentions
+- Show you understand the impact of your actions
+- Don't pressure them for forgiveness

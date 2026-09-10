@@ -1,0 +1,41 @@
+.opening-screen {
+  background: radial-gradient(ellipse at center, rgba(45, 53, 97, 0.3) 0%, transparent 70%);
+}
+
+.parchment-glow {
+  background: radial-gradient(ellipse at center, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.revelation {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: var(--color-candlelight);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.follow-up {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  max-width: 650px;
+  line-height: 1.8;
+  color: var(--color-warm-gold);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .revelation {
+    font-size: 1.5rem;
+  }
+
+  .follow-up {
+    font-size: 1.2rem;
+  }
+
+  .parchment-glow {
+    padding: 2rem;
+  }
+}
