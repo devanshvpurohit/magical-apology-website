@@ -272,7 +272,21 @@ react-app/
 
 - **Enter** or **→** - Next section
 - **←** - Previous section
-- **Click music button** - Toggle ambient sound
+- **Click music button** - Toggle background music (top-right corner)
+
+## 🎵 Background Music
+
+The app includes ambient background music that plays when you click the music toggle button (🎵/🔇) in the top-right corner.
+
+**To replace the background music:**
+1. Add your mp3 file to `public/` folder
+2. Name it `background-music.mp3` (or update the filename in `MusicToggle.js`)
+3. Rebuild the app
+
+**Volume:** Set to 30% by default. Adjust in `src/components/MusicToggle.js`:
+```javascript
+audioRef.current.volume = 0.3; // 0.0 to 1.0
+```
 
 ## 🔧 Troubleshooting
 
